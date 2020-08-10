@@ -6,6 +6,11 @@ const chess = new Chess();
 const chess960 = new Chess960(chess);
 
 
+//////////////////////////////////////////////////////////
+// THESE ARE LOCATED AT THE BOTTOM OF THE CHESS960 PAGE //
+//////////////////////////////////////////////////////////
+
+
 //TEST FOR GAME TO PLAY UNTIL GAME OVER
 //PRINTS ALL MOVES VIA ASCII ART
 while (!chess.game_over()) {
