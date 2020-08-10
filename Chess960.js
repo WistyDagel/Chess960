@@ -100,7 +100,6 @@ class Chess960 {
                 var temp = piecesMap.rook1;
                 piecesMap.rook1 = piecesMap.king;
                 piecesMap.king = temp;
-                console.log(false);
             }
         }
         // console.log(piecesMap);
@@ -192,7 +191,7 @@ const chess960 = new Chess960(chess);
 // console.log(string);
 
 //UNIT TEST 2 - CREATE THE CHESS BOARD BASED ON THE CHESS960 RULESET 
-chess960.createChessBoard();
+// chess960.createChessBoard();
 
 //UNIT TEST 3 - CHECK POSITIONs FOR ROOKs, KING AND BISHOPS 
 //THIS IS USED FOR ADJUSTING THE SET OF THE PIECES IN ACCORDANCE TO THE RULES
@@ -201,7 +200,7 @@ chess960.createChessBoard();
 
 //UNIT TEST 4
 //TEST IF KING IS AT POSITION 0
-// var value = { rook1: 3, rook2: 5, king: 0, bishop1: 6, bishop2: 2 };
+// var value = { rook1: 3, rook2: 5, king: 0, bishop1: 6, bishop2: 2, queen: 4, knight1: 1, knight2: 7 };
 // var string = 'knbrqrbn';
 // chess960.adjustPositions(value, string);
 
